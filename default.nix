@@ -15,5 +15,6 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   cst = pkgs.callPackage ./pkgs/cst { };
+  potracer = pkgs.python3Packages.callPackage ./pkgs/potracer { };
   trigger = pkgs.callPackage ./pkgs/trigger { };
 }
