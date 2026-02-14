@@ -26,7 +26,7 @@ buildPythonApplication rec {
   src = fetchFromGitHub {
     owner = "jya-dev";
     repo = "supernote-tool";
-    rev = "v${version}";
+    tag = "v${version}";
     hash = "sha256-WW5saMJgTWr8I4dh5MWK/U1y4C7Ugf2zIFQ12bEacGA=";
   };
 
